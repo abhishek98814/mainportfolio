@@ -1,0 +1,194 @@
+
+.about_main{
+    position: relative;
+}
+
+.about{
+    position: absolute;
+    /* display: flex; */
+    grid-template-columns: column;
+   justify-content: space-between;
+/* top: 3rem; */
+}
+
+.headerh1{
+    padding-top: 8rem;
+/* position: absolute; */
+position: absolute;
+left: 8rem;
+}
+.about_header h1{
+    font-weight: 800;
+}
+
+.about_img img{
+    width: 43%;
+    border-radius: 50%;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   opacity: 1;
+   z-index: 1;
+   position: absolute;
+
+}
+
+.about_page{
+    position: absolute;
+    margin-top: 30rem;
+    background: #1f1f38;
+}
+
+.about_page h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: white;
+
+}
+
+.about_pageflex{
+    display: flex;
+    padding-top: 4rem;
+}
+
+.pageFlex1{
+    background: bac;
+}
+
+.pageFlex_image{
+    margin-left: 30%;
+    width: 52%;
+    height: 47vh;
+    background: linear-gradient(25deg, transparent, #4db5ff,
+    transparent
+    );
+    aspect-ratio: 1/1;
+    place-items: center;
+    border-radius: 2rem;
+
+}
+
+.pageFlex1 img{
+    overflow: hidden;
+    border-radius: 2rem;
+     width:100%;
+     transform: rotate(20deg);
+     transition: all ease 400ms;
+}
+
+.pageFlex1 img:hover{
+    transform: rotate(0);
+}
+
+.pageFlex2{
+   margin-right: 4rem;
+}
+
+.pageFlex2 h2{
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+}
+.pageFlex2 p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+ color: white;
+}
+
+
+
+
+.skill{
+    /* position: absolute; */
+    /* margin-top: 60rem; */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    /* background-color:#1f1f38; */
+}
+.experience_container{
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+}
+
+.experience_container > div{
+    align-items: center;
+    justify-content: center;
+    background: #2c2c6c;
+    border: 1px solid transparent;
+    transition: all ease 400 ms;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+
+.experience_container > div:hover{
+    background: transparent;
+    border-color: #2c2c6c;
+    cursor: default;
+}
+.experience_container > div h3{
+    text-align: center;
+    margin-bottom: 0.4rem ;
+    color:#4db5ff;
+    font-family: 'Playfair Display', serif;
+
+}
+h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.9rem;
+}
+.experience_details{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.expereince_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.experience_details{
+    display: flex;
+    gap: 1rem;
+/* justify-content: space-between; */
+}
+.experience_details_icon{
+    margin-top: 6px;
+    color: #4db5ff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .about_container{
+        grid-template-columns: 1fr;
+    }
+    .about_me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about_content p{
+        margin: 1rem 0 1.5rem; 
+    }
+}
+@media screen and (max-width: 600px) {
+    .about_me{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about_cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .about_content{
+        text-align: center;
+    }
+    .about_content p{
+        margin: 1.5rem 0 ;
+    }
+}
+
+

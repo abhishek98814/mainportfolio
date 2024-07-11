@@ -1,0 +1,77 @@
+
+
+.service{
+    position: relative;
+}
+
+.service_line{
+    position: relative;
+}
+
+.service_line{
+    content: " ";
+position: absolute;
+left: 0;
+width: 160px;
+height: 2px;
+background-color: #6c757d; 
+}
+.port{
+    padding-top: 10rem;
+    position: absolute;
+}
+.port h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.service_image img{
+    position: absolute;
+    width: 43%;
+    border-radius: 50%;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   opacity: 1;
+   z-index: 1;
+}
+
+.service_page{
+    position: absolute;
+    width: 100%;
+    margin-top: 30rem;
+    background: #1f1f38;
+    color: white;
+}
+.service_page h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+.service_box{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.service_paragraph{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.services_last{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_last h1{
+    font-size: 3rem;
+}
+.services_last button{
+    border: none;
+    font-size: larger;
+}
+
+/* image */
+  
+

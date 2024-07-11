@@ -1,0 +1,97 @@
+
+.contact{
+    position: relative;
+ 
+}
+
+.contact_container{
+    position: absolute;
+    margin-top: 2rem;
+    grid-auto-flow: column;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.contact_first{
+margin-top: 11rem;
+}
+.contact_line{
+    position: relative;
+}
+.contact_line::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    width: 160px;
+    height: 2px;
+    background-color: #6c757d; ; 
+}
+
+.contact_first h1{
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+font-size: 4rem;
+}
+
+.contact_img img{
+position: absolute;
+border-radius: 50%;
+width: 53%;
+}
+
+
+.contact_pagedown{
+margin-top: 30rem;
+position: absolute;
+display: flex;
+}
+
+.contact_text{
+    margin-top: 6rem;
+}
+
+.contact_form{
+    margin-top: 7rem;
+  padding-left: 7rem;
+}
+
+.contact_pagedown h1{
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+font-size: 2rem;
+}
+
+.contact_pagedown p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 400;
+}
+
+label{
+   color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+input{
+height: 3rem;
+border-color: #dddddd;
+background: #fafafa;
+}
+
+
+.email input{
+    width: 25rem;
+}
+
+.contact_name{
+    display: flex;
+}
+
+.map{
+    position:absolute;
+    margin-top: 62rem;
+}
+
+.map img{
+    /* height: 60vh; */
+    width: 100%;
+}
